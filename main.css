@@ -1,0 +1,80 @@
+body{
+    background-color:rgba(113, 114, 106, 0.952);
+}
+
+.front-card{
+    width:350px;
+    height: 612px;
+    /* Centers the card */
+    margin: 0 auto;
+    background-color:rgb(241, 240, 237);
+    background-image: url("Assets/back-card.svg");
+    box-shadow: 11px 5px 15px 0px #17161694;
+    /* How far apart the cards are */
+    margin-bottom: 70px;
+}
+svg{
+    position: relative;
+    width: 4009x;
+    height: 190px;
+    margin-left: 78px;
+    top: 200px;
+
+}
+#initial1:hover {
+    -webkit-animation: fadeOutLeft 1s;
+    animation: fadeOutLeft 1s;
+}
+
+#initial2:hover {
+    -webkit-animation: fadeOutRight 2s;
+    animation: fadeOutRight 2s;
+}
+
+/* Styling the back card */
+
+.back-card{
+    width:350px;
+    height: 612px;
+    margin: 0 auto;
+    background-color:rgb(241, 240, 237);
+    background-image: url("Assets/back-card.svg"); 
+    box-shadow: 11px 5px 15px 0px #17161694;
+}
+
+.icon-container a{
+    display: inline-block;
+    position: relative;
+    margin-top: 440px;
+    margin-left: 25px;
+    width: 50px;
+    justify-content: center;
+}
+
+    /*grid-gap:25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "a b c d";
+    */
+   /*border: 2px solid blue;*/
+
+    /* Styling the fonts using google fonts (Back Card)  */
+    /* Positioning the h1 and h2 */
+
+    .back-card h1 {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 25px;
+        position: relative;
+        top: 200px;
+        left: 50px;
+    } 
+     
+    .back-card h2 {
+        font-family: 'Work Sans', sans-serif;
+        position: relative;
+        font-size: 25px;
+        top: 220px;
+        left: 150px;
+    } 
+    
